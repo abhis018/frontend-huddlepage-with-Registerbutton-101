@@ -31,9 +31,44 @@ html, body {
 
 .logo {
     display: flex;
-    width: 5px;
-    position: absolute;
-    right: 250px;
-    top: 85%;
+    margin-top: 120px;
+    margin-left: 350px;
 }
 
+
+.bi-facebook {
+    margin-right: 10px;
+    transition: transform .2s;
+}
+.bi-facebook:hover {
+    transform: scale(1.5); 
+}
+.bi-twitter {
+    margin-right: 10px;
+    transition: transform .2s;
+}
+
+.bi-twitter:hover {
+    transform: scale(1.5); 
+}
+
+.bi-instagram {
+    margin-right: 10px;
+    transition: transform .2s;
+}
+
+.bi-instagram:hover {
+    transform: scale(1.5); 
+}
+
+button {
+    transition: transform .2s;
+}
+
+button:hover {
+    transform: scale(1.1); 
+}
+
+.bi-chat-left-dots {
+    margin-top: 45px;
+}
